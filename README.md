@@ -29,3 +29,4 @@ AWS DMS will take data from RDS and write that data into temporary S3 bucket.
 Next Lambda funtion will be triggered for every new object stored in temp S3 bucket 
 and invoke PySpark Job in AWS Glue.
 All the changes to the RDS DB will be eventually replicated to the final S3 storage.
+![chart](https://github.com/rafaski1/Big-Data-with-PySpark/blob/main/CDC.PNG?raw=true)
