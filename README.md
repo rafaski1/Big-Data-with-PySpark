@@ -11,3 +11,7 @@ Notebook imported from databricks cloud.
 A simple project showing data analysis and data manipulation using pyspark, mostly RDD's and DataFrames.
 Notebook imported from databricks cloud.
 
+"""
+### Collaborative-Filtering ###
+Collaborative filtering with PySpark (recommender system). 
+Predicting which movies a user will like and getting movie recommendations to the user by using machine learnin algorythms.
