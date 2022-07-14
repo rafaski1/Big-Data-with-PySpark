@@ -23,7 +23,7 @@ doing transformations with pyspark functions and loading it into AWS RDS with po
 
 """
 ### CDC-Project ###
-A CDC - Change Data Capture / Replication on Going project.
+A CDC - Change Data Capture (Replication on Going) project.
 A MySQL database will be placed in AWS RDS. 
 AWS DMS will take data from RDS and write that data into temporary S3 bucket.
 Next Lambda funtion will be triggered for every new object stored in temp S3 bucket 
