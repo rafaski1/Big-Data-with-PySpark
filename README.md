@@ -20,3 +20,12 @@ Predicting which movies a user will like and getting movie recommendations to th
 ### ETL-Project ###
 Exploring ETL with pyspark. Extracting data from a text file, 
 doing transformations with pyspark functions and loading it into AWS RDS with postgreSQL.
+
+"""
+### CDC-Project ###
+A CDC - Change Data Capture / Replication on Going project.
+A MySQL database will be placed in AWS RDS. 
+AWS DMS will take data from RDS and write that data into temporary S3 bucket.
+Next Lambda funtion will be triggered for every new object stored in temp S3 bucket 
+and invoke PySpark Job in AWS Glue.
+All the changes to the RDS DB will be eventually replicated to the final S3 storage.
