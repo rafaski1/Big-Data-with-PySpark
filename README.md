@@ -15,3 +15,8 @@ Notebook imported from databricks cloud.
 ### Collaborative-Filtering ###
 Collaborative filtering with PySpark (recommender system). 
 Predicting which movies a user will like and getting movie recommendations to the user by using machine learnin algorythms.
+
+"""
+### ETL-Project ###
+Exploring ETL with pyspark. Extracting data from a text file, 
+doing transformations with pyspark functions and loading it into AWS RDS with postgreSQL.
