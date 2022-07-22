@@ -1,5 +1,5 @@
 # Big-Data-with-PySpark
-Big Data projects exploring PySpark functionality. Going through rdd's, dataframes, machine learning (recommendations), streaming, ETL pipelines and AWS ETL (S3,RDS,DMS,Glue,Lambda) pipelines with mySQL and postgreSQL integration.
+Big Data projects exploring PySpark functionality. Going through rdd's, dataframes, machine learning (recommendations), streaming, ETL pipelines and AWS ETL (S3, RDS, DMS, Glue, Lambda) pipelines with mySQL and postgreSQL integration.
 
 ### Office-Data-Project ###
 A simple project showing data analysis and data manipulation using pyspark, mostly RDD's and DataFrames.
